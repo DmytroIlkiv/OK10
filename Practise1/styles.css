@@ -1,0 +1,47 @@
+.Zmist{
+    width: 35%;
+    border: 1px solid black;
+}
+
+.m_20{
+    margin: 20px;
+}
+
+.w_75{
+    width: 75%;
+}
+
+#z1 {
+    text-align: center;
+}
+
+ol { counter-reset: item }
+
+li{ display: block }
+
+li:before { content: counters(item, ".") " ";
+            counter-increment: item }
+
+.div1{
+    width: 75%;
+}
+
+.d_flex{
+    display: flex;
+}
+.div2{
+    width: 25%;
+}
+
+.justify_center{
+    justify-content: center;
+}
+
+.align_center{
+    align-items: center;
+}
+
+.img {
+    width: 250px;
+    height: 300px;
+}
